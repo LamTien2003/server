@@ -22,6 +22,11 @@ const allowOrigins: TAllowOrigins[] = [
   },
   {
     protocol: ["http", "https"],
+    domain: "103.232.121.159",
+    ports: [5173,8080]
+  },
+  {
+    protocol: ["http", "https"],
     domain: "monantrunghoa.netlify.app",
     ports: []
   }
